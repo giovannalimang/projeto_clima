@@ -1,0 +1,138 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{ 
+    background-color: #fbfbfb;
+}
+.lepo{
+    width: 10px;
+}
+.caixa{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(70deg, #0deb5b, #3eb9e2);
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    box-shadow: 0px 10px 30px #3eb9e2; 
+}
+
+.titulo{
+    
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.pesquisa input {
+    border: 0;
+    outline-color: #0deb5b;
+    border-radius: 25px;
+    padding: 15px 25px;
+    margin-left: 20px;
+    margin-right: 16px;
+    background: #deedeb;
+    height: 50px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #302727;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.pesquisa input:hover {
+    background-color: #cee2f0; 
+    transform: scale(1.1);
+}
+
+.pesquisa button {
+    border: 0;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #deedeb;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.pesquisa button:hover {
+    background-color: #cee2f0; 
+    transform: scale(1.2);
+}
+
+.pesquisa button img {
+    width: 27px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 4px 4px 4px;
+}
+
+.clima .icone-clima{
+    height: 260px;
+    
+    
+}
+
+
+
+.clima h1{
+    color: #cff0ec;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.clima h2{
+    color: #cff0ec;
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.detalhes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 50px;
+}
+
+.coluna{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.coluna img{
+    width: 50px;
+    margin-right: 18px;
+    
+}
+
+.humidity, .vento{
+    font-size: 27px;
+    margin-top: -6px;
+    margin-bottom: 5px;
+    color: #cff0ec;
+    font-weight: bold;
+}
+
+.velocidade-text{
+    color:#cff0ec;
+    font-weight: bold;
+}
+
+.umidade-text{
+    color:#cff0ec;
+    font-weight: bold;
+}

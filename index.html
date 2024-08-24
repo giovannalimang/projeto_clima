@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima em Foco </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="caixa" id="caixa">
+    <h1 class="titulo"> Clima Fácil</h1>
+
+    <div class="pesquisa">
+        <input type="text" placeholder="Digite o local desejado "
+        spellcheck="false">
+        <button><img src="imagens/lupa.png" alt="" height="60px" width="60px"></button>
+    </div>
+    <div class="clima">
+        <img src="imagens/sol.png" alt="icone-clima" class="icone-clima">
+        <h1 class="temperatura">0</h1>
+        <h2 class="cidade">cidade</h2>
+        <div class="detalhes">
+            <div class="coluna">
+                <img src="imagens/humidity.png">
+                <div>
+                    <p class="humidity">0%</p>
+                    <p class="umidade-text">Umidade</p>
+
+                </div>
+            </div>
+            <div class="coluna">
+                <img src="imagens/vento.png">
+                <div>
+                    <p class="vento">0 km/h</p>
+                    <p class="velocidade-text">Velocidade</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="java.js">
+</script>
+</body>
+</html>
